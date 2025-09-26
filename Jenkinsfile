@@ -7,6 +7,11 @@ pipeline {
     }
 
     stages {
+	stage('Fix Docker Socket Permission') {
+            steps {
+                sh 'sudo chmod 666 /var/run/docker.sock'
+            }
+        }
         stage('Checkout Code') {
             steps {
                 git branch: 'main', url: 'https://github.com/jerald-04/CiCd.git'
