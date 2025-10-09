@@ -29,6 +29,11 @@ pipeline {
                 }
             }
         }
+	stage('Deleting existing containers') {
+	    steps {
+		sh "docker stop CiCd"
+	    }
+	}
 
         stage('Deploy') {
             steps {
