@@ -29,13 +29,6 @@ pipeline {
                 }
             }
         }
-	stage('Deleting existing containers') {
-	    steps {
-		sh "docker stop CiCd"
-		sh "docker rm CiCd"
-	    }
-	}
-
         stage('Deploy') {
             steps {
                 sh "docker run -d -p 5000:5000 --name CiCd $IMAGE_NAME:$IMAGE_TAG || true"

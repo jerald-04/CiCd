@@ -17,6 +17,5 @@ def home():
         "Contact my Mobile Number : 8939263846/ 8072545136"
     )
 if __name__ == "__main__":
-    main()
     app.run(host="0.0.0.0", port=5000)
 
