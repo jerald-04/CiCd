@@ -9,17 +9,16 @@ def home():
         "This is a sample Flask application.<br>"
         "I am Albert — thank you for visiting!<br><br>"
         "This app is part of a simple CI/CD pipeline demo "
-        "to show how a web service can be built, tested, and deployed automatically."
     )
 
 def main():
     print("=== Welcome to Albert Jerald’s Flask App ===\n")
     paragraph = (
-        "This is a simple Python + Flask application used for CI/CD pipeline testing. "
-        "It demonstrates how code can be automatically built and deployed using DevOps tools. "
-        "Flask is a lightweight web framework that helps create web applications quickly. "
-        "By integrating Flask into a CI/CD pipeline, you can automate deployments "
-        "and continuously deliver updates efficiently."
+        "I'm Albert Jerald "
+        "I'm open for new opportunities. I'm practicing AWS and Devops tools "
+        "I have hands-on experience on AWS, Linux, Git, Jenkins, Docker and practical knowledge on Ansible and Terraform. "
+        "Contact my Email: albertjerald19@gmail.com  "
+        "Contact my Mobile Number : 8939263846/ 8072545136"
     )
     print(paragraph)
 
