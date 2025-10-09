@@ -32,6 +32,7 @@ pipeline {
 	stage('Deleting existing containers') {
 	    steps {
 		sh "docker stop CiCd"
+		sh "docker rm CiCd"
 	    }
 	}
 
