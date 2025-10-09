@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return (
         "This is a sample Flask application.<br>"
-        "I am Albert — thank you for visiting!<br><br>"
+        "I am Albert Jerald — thank you for visiting!<br><br>"
         "This app is part of a simple CI/CD pipeline demo "
     )
 
